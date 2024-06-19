@@ -93,7 +93,8 @@ h2 {
   gap: 0px;
   border-radius: 60px;
   opacity: 0px;
-  border: 1px solid #ffffff;
+  background: none;
+  border: 1px solid rgba(30, 113, 255, 1);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -108,6 +109,27 @@ h2 {
 
 .btn2:hover {
   background: #1e71ff;
+  color: #ffffff;
+}
+.btun2:hover {
+  background-color: white;
+  color: blue;
+}
+.btun2 {
+  width: 172px;
+  height: 50px;
+  top: 587px;
+  left: 140px;
+  gap: 0px;
+  border-radius: 60px;
+  opacity: 0px;
+  background: none;
+  border: 1px solid white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -159,6 +181,8 @@ h3 {
 
 .bar-img {
   left: 0%;
+  justify-content: center;
+  top: 10%;
 }
 
 .line {
@@ -239,7 +263,17 @@ h3 {
 .mt180 {
   margin-top: 180px;
 }
-
+.color {
+  color: rgba(43, 53, 62, 0.7);
+}
+.colour {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.widthh {
+  width: auto;
+}
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
@@ -352,6 +386,10 @@ h3 {
     position: unset !important;
     margin-top: 10px !important;
     text-align: center !important;
+  }
+  .colour {
+    font-weight: bold;
+    color: black;
   }
 }
 
