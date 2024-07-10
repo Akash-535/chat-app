@@ -23,6 +23,7 @@
   line-height: 16.41px;
   text-align: right;
   color: #ffffff;
+  text-decoration: none;
 }
 
 h4 {
@@ -53,7 +54,7 @@ section header .container nav h4 .app {
   gap: 0px;
   border-radius: 210px;
   opacity: 0px;
-  background: #1e71ff;
+  background: #4b8dff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -132,7 +133,10 @@ h2 {
   text-align: center;
   color: #ffffff;
 }
-
+.p50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .mt125 {
   margin-top: 20px;
 }
@@ -421,7 +425,7 @@ h3 {
   font-style: normal;
 }
 .bg-white {
-  background-color: #ffffff;
+  background-color: none;
 }
 
 .mt-60 {
